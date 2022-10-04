@@ -1,0 +1,11 @@
+.card {
+  width: 280px;
+  height: 328px;
+  box-sizing: border-box;
+  border: 1px solid #E1E1E1;
+  margin-right: 32px;
+}
+
+.card:nth-child(4n) {
+  margin-right: 0;
+}

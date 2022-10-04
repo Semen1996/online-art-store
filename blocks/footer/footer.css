@@ -1,0 +1,11 @@
+.footer {
+  width: 100%;
+  height: 96px;
+  box-sizing: border-box;
+  display: grid;
+  grid-template-columns: minmax(542px, 990px) minmax(496px, 768px);
+  column-gap: 130px;
+  align-items: center;
+  margin: 0 auto;
+  background-color: #ECEAEA;
+}

@@ -1,0 +1,7 @@
+.popup__text {
+  grid-area: text;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 150%;
+  margin-left: 36px;
+}

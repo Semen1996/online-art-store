@@ -1,0 +1,10 @@
+.page {
+  max-width: 1920px;
+  min-width: 320px;
+  min-height: 100vh;
+  margin: 0 auto;
+  font-family: 'Merriweather';
+  font-style: normal;
+  color: #343030;
+  background: #F6F3F3;
+}

@@ -1,0 +1,11 @@
+.header {
+  width: 100%;
+  height: 97px;
+  box-sizing: border-box;
+  display: grid;
+  grid-template-columns: minmax(542px, 990px) minmax(416px, 768px);
+  column-gap: 162px;
+  align-items: center;
+  margin: 0 auto;
+  border-bottom: solid 1px #E1E1E1;
+}

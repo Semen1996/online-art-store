@@ -1,0 +1,15 @@
+.popup__container {
+  position: relative;
+  width: 800px;
+  min-height: 500px;
+  display: grid;
+  grid-template-columns: 450px 1fr;
+  grid-template-rows: 110px 200px 1fr;
+  grid-template-areas: 
+  'title title'
+  'img slider'
+  'text buy';
+  background-color:  #FFFFFF;
+  border-radius: 10px;
+  z-index: 4;
+}

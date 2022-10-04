@@ -1,0 +1,8 @@
+.card__btn_type_cart {
+  background-color: #5B3A32;
+}
+
+.card__btn_type_cart::before {
+  content: url('../../../../image/Icons/check.svg');
+  margin-right: 5px;
+}

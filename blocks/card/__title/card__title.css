@@ -1,0 +1,10 @@
+.card__title {
+  margin: 8px 36px 21px 24px;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 150%;
+}
+
+.card__title:hover {
+  cursor: pointer;
+}

@@ -1,0 +1,5 @@
+.popup__price {
+  grid-area: buy;
+  justify-self: center;
+  align-self: center;
+}

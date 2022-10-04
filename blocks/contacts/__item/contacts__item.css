@@ -1,0 +1,7 @@
+.contacts__item {
+  display: flex;
+}
+
+.contacts__item:first-child {
+  margin-right: 55px;
+}

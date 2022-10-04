@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Online store</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css"/>
+  <link rel="stylesheet" href="./pages/index.css">
+</head>
+<body>
+  <div class="page">
+    <header class="header">
+      <nav class="menu">
+        <ul class="menu__list">
+          <li class="menu__list-item"><a href="#" class="menu__text">Каталог</a></li>
+          <li class="menu__list-item"><a href="#" class="menu__text">Доставка</a></li>
+          <li class="menu__list-item"><a href="#" class="menu__text">Оплата</a></li>
+          <li class="menu__list-item"><a href="#" class="menu__text">Контакты</a></li>
+          <li class="menu__list-item"><a href="#" class="menu__text">О компании</a></li>
+        </ul>
+      </nav>
+      <form class="search" name="search">
+        <input class="search__input" name="input" type="text" placeholder="Поиск по названию картины">
+        <button class="search__submit" name="submitBtn" type="submit">Найти</button>
+      </form>
+    </header>
+    <main class="main">
+      <section class="paintings">
+        <h1 class="title">Картины эпохи Возрождения</h1>
+        <div class="cards">
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <nav class="menu">
+        <ul class="menu__list">
+          <li class="menu__list-item"><a href="#" class="menu__text">Каталог</a></li>
+          <li class="menu__list-item"><a href="#" class="menu__text">Доставка</a></li>
+          <li class="menu__list-item"><a href="#" class="menu__text">Оплата</a></li>
+          <li class="menu__list-item"><a href="#" class="menu__text">Контакты</a></li>
+          <li class="menu__list-item"><a href="#" class="menu__text">О компании</a></li>
+        </ul>
+      </nav>
+      <div class="contacts">
+        <div class="contacts__item">
+          <img class="contacts__icon" src="image//Icons/phone.svg">
+          <p class="contacts__text"> +7 (812) 555-55-55</p>
+        </div>
+        <div class="contacts__item">
+          <img class="contacts__icon" src="image//Icons/adress.svg">
+          <p class="contacts__text"> г. Санкт-Петербург, ул. Ефимова, 3</p>
+        </div>
+      </div>
+    </footer>
+  </div>
+  <template id="card">
+    <div class="card">
+      <img class="card__img" src="" alt="Картина">
+      <h2 class="card__title"></h2>
+      <div class="card__sale">
+        <div class="card__price">
+          <p class="card__old-price"></p>
+          <p class="card__current-price"></p>
+        </div>
+        <button class="card__btn">Купить</button>
+      </div>
+    </div>
+  </template>
+  <div class="popup">
+    <div class="popup__container">
+      <h2 class="popup__title">«Тайная вечеря» Леонардо да Винчи</h2>
+      <img class="popup__img" src="./image/The_Last_Supper.png">
+      <p class="popup__text"></p>
+      <div class="images-slider swiper-container">
+        <div class="swiper-wrapper">
+          <!-- Тута слайды через js-->
+        </div>
+        <div class="image-slider__scroll swiper-scrollbar"></div>
+      </div>
+      <div class="popup__price">
+        <p class="popup__old-price">4 000 000 $</p>
+        <p class="popup__current-price">3 000 000 $</p>
+      </div>
+      <button class="popup__close" type="button" aria-label="Закрыть попап"></button>
+    </div>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+  <script src="./utils/initial-cards.js"></script>
+  <script src="./pages/index.js"></script>
+</body>
+</html>

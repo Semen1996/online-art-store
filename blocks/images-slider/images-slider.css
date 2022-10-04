@@ -1,0 +1,8 @@
+.images-slider {
+  grid-area: slider;
+  justify-self: center;
+  width: 200px;
+  height: 200px;
+  position: relative;
+  overflow: hidden;
+}
