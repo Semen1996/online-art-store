@@ -1,7 +1,12 @@
+const birth = new URL('../image/The_Birth_of_Venus.png', import.meta.url);
+const lastSupper = new URL('../image/The_Last_Supper.png', import.meta.url);
+const adam = new URL('../image/The_Creation_of_Adam.png', import.meta.url);
+const anatomy = new URL('../image/The_Anatomy_Lesson.png', import.meta.url);
+
 const initialCards = [
     {
       name: '«Рождение Венеры» Сандро Боттичелли',
-      link: './image/The_Birth_of_Venus.png',
+      link: birth,
       oldPrice: '2 000 000 $',
       currentPrice: '1 000 000 $',
       status: 'sale',
@@ -9,7 +14,7 @@ const initialCards = [
     },
     {
       name: '«Тайная вечеря» Леонардо да Винчи',
-      link: './image/The_Last_Supper.png',
+      link: lastSupper,
       oldPrice: '',
       currentPrice: '3 000 000 $',
       status: 'inCart',
@@ -17,7 +22,7 @@ const initialCards = [
     },
     {
       name: '«Сотворение Адама» Микеланджело',
-      link: './image/The_Creation_of_Adam.png',
+      link: adam,
       oldPrice: '6 000 000 $',
       currentPrice: '5 000 000 $',
       status: 'sale',
@@ -25,10 +30,12 @@ const initialCards = [
     },
     {
       name: '«Урок анатомии» Рембрандт',
-      link: './image/The_Anatomy_Lesson.png',
+      link: anatomy,
       oldPrice: '',
       currentPrice: 'Продана на аукционе',
       status: 'sold',
       description: 'Картина Рембрандта, написанная в 1632 году.'
     }
   ];
+
+  export default initialCards;

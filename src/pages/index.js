@@ -1,3 +1,10 @@
+import './index.css';
+import Swiper from 'swiper/bundle';
+
+// import styles bundle
+import 'swiper/css/bundle';
+import initialCards from '../utils/initial-cards.js';
+
 const cardTemplate = document.querySelector('#card').content;
 const cards = document.querySelector('.cards');
 const popup = document.querySelector('.popup');
@@ -73,7 +80,7 @@ function addCard(name, link, oldPrice, currentPrice, status, description) {
   card.querySelector('.card__old-price').textContent = oldPrice;
   card.querySelector('.card__current-price').textContent = currentPrice;
 
-  if(status === 'onCart') {
+  if(status === 'inCart') {
     button.classList.add(btnCartSelector);
     button.textContent = 'В корзине';
   } else if(status === 'sold') {
