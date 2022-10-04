@@ -9,16 +9,8 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Semen1996/online-art-store.git"
-  },
   "author": "Semen Tolstoguzov",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Semen1996/online-art-store/issues"
-  },
-  "homepage": "https://github.com/Semen1996/online-art-store#readme",
   "devDependencies": {
     "@babel/core": "^7.19.3",
     "@babel/preset-env": "^7.19.3",

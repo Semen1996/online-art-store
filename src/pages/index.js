@@ -149,7 +149,6 @@ new Swiper('.images-slider', {
     slides: (function() {
       let slide =[];
       for (let i = 0; i < 4; i++) {
-        console.log(initialCards[i].link);
         slide.push(`<img class="images-slider__image swiper-slide" src=${initialCards[i].link}>`);
       }
       return slide;
